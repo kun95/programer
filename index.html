@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+</head>
+<body>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      repo: 'https://github.com/kun95/programer',
+      loadSidebar: true,
+      name: '程序员的自我修养',
+      coverpage: true,
+      themeColor: '#3F51B5',
+      subMaxLevel: 3,
+      search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            noData: '找不到结果',//搜索不到结果时显示
+            paths: 'auto',//自动
+            placeholder: '搜索'//搜索框提示
+      }
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+
+
+<script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'f2cea98bb7df7fcbba6e',
+    clientSecret: '2723902bb0b3ee9135c208ac48f6dcba131ece0b',
+    repo: 'programer',
+    owner: 'kun95',
+    admin: 'kun95',
+    title: ''+new Date(),
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+</script>
+
+</body>
+</html>
