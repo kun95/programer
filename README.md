@@ -23,3 +23,5 @@ React可以轻松创建交互式用户界面。为应用程序中的每个状态
 我们不会对你的技术栈的其余部分做出假设，所以您可以在 React 中开发新功能，而无需重写现有的代码。
 
 React也可以使用 Node 在服务器端渲染 ，并为移动应用使用 [React Native](https://facebook.github.io/react-native/) 提供动力。
+
+[https://tva1.sinaimg.cn/large/006y8mN6ly1g87vkd2mabj315o0qawjr.jpg](https://tva1.sinaimg.cn/large/006y8mN6ly1g87vkd2mabj315o0qawjr.jpg)
