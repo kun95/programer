@@ -5,7 +5,7 @@
 - [第5章 React-Router](chapter5/)
 - [第6章 Sass/Less](chapter6/)
 - [第7章 项目实战](chapter7/)
-- [第8章 其他](chapter08/)
-    - [app登陆设计](chapter08/001.md)
+- [第8章 其他](chapter8/)
+    - [app登陆设计](chapter8/001.md)
 
 
